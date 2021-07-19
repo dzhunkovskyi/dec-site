@@ -1,0 +1,994 @@
+.container{
+    width: 100vw;
+    transform: translate(-1.9vw);
+    
+    top: -0.1vw;
+    position: absolute;
+
+    background-image: url(https://images.wallpaperscraft.ru/image/chb_gory_skaly_161251_1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+
+    height: 1000px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    
+    box-sizing: border-box;
+    
+}
+/*////////////////////////////|  Header  |/////////////////////////*/
+.header{
+    width: 98.1vw;
+    height: 4vw;
+
+    position: fixed;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(22, 22, 17, 0.74);
+
+    padding-left: 1.9vw;
+}
+
+.itele{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    width: 30%;
+}
+
+.iteri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 50%;
+}
+
+.itemh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h1{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Arvo', serif;
+    color: #F1F3DE;
+
+}
+h2{
+    text-decoration: none;
+    font-size: 27px;
+    font-family: 'Arvo', serif;
+    color: #F1F3DE;
+
+}
+
+.header a{
+    transition: 0.3s;
+
+    text-decoration: none;
+    font-size: 27px;
+    font-family: 'Arvo', serif;
+    color: #F1F3DE;
+
+}
+.header a:hover{
+    color: #FF5056;
+}
+
+
+/*////////////////////////////|  Head  |///////////////////////////*/
+
+.head{
+    margin-top: 10vw;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+
+}
+.inim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img{
+    width: 32.5vw;
+    height: 32.5vw;
+    border-radius: 50%;
+    background-image: linear-gradient(to left bottom, #4a4b42, #7e7f72, #b6b7a6, #f1f3de);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: 0px 0px 72px -1px rgba(36, 37, 29, 0.91);
+    
+}
+
+.head img{
+    width: 30vw;
+    height: 30vw;
+    align-self: center;
+
+    border-radius: 50%;
+}
+
+.txt{
+    color: black;
+    background-color: rgba(241, 243, 222, 0.5);
+    border-radius: 30px;
+    width: 40%;
+
+    padding: 1vw;
+
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 72px -1px rgba(36, 37, 29, 0.91);
+
+}
+.head h1{
+    color:#1c1d17;
+}
+
+
+
+/*//////////////////////////|  About Us  |////////////////////////*/
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #24251d;
+
+    margin-top: 10vw;
+
+    width: 100vw;
+    
+    box-shadow: 0px -31px 64px 57px rgba(36, 37, 29, 1);
+    box-sizing: border-box;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1vw;
+
+    width: 100%;
+    
+    
+    
+    
+
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+
+.itemab{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    background-color: #F1F3DE;
+    padding: 1%;
+    border-radius: 5px;
+
+    transition: 0.3s;
+}
+
+.itemab h3{
+    margin: 1vw;
+    margin-top: 1vw;
+}
+
+.itemab:hover{
+    background-image: linear-gradient(to left bottom, #ec0101, #f11a19, #f52a29, #f93738, #fc4245, #ff5059, #ff5d6c, #ff6b7e, #ff8099, #ff94b1, #ffa8c7, #ffbcd9);
+
+}
+
+h3{
+    color: #1c1d17;
+    font-size: 24px;
+    align-self: center;
+}
+
+/*////////////////////////////|  Shop  |///////////////////////////*/
+
+.Shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin-top: 3vw;
+}
+
+
+.Shname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #F1F3DE;
+    width: 100vw;
+    
+}
+
+.stick{
+    background-color: #F1F3DE;
+    width: 10%;
+    height: 3px;
+    border-radius: 10%;
+
+    margin-top: 3.5vw;
+}
+
+.Name{
+    color: #1c1d17 ;
+    background-color:#F1F3DE;
+    border-radius: 20px;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+}
+.Shname h1{
+    color: #1c1d17;
+}
+
+
+.Products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.SubName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Products h1{
+    align-self: center;
+}
+
+
+.Showcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+
+.ContainCase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.ProductColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+/*...........ProductItem..........*/
+
+.ProductItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 30px;
+
+    background-color: #F1F3DE;
+
+    width: 20vw;
+
+    
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.GhostProductItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 30px;
+
+    background-color: #F1F3DE;
+
+    width: 20vw;
+
+    
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
+    opacity: 0;
+}
+
+.NoNeedGhostProductItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 30px;
+
+    background-color: #F1F3DE;
+
+    width: 20vw;
+
+    
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
+    opacity: 0;
+}
+
+.ProductImage{
+    width: 18vw;
+    height: 18vw;
+    align-self: center;
+    margin-top: 1vw;
+}
+
+.ProductImage img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50px;
+
+    align-self: center;
+}
+
+/*........ProductTxT......*/
+.ProductTxT{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ProductTxT h2{
+    margin: 0%;
+    margin-bottom: 1vw;
+    margin-top: 0.5vw;
+    color: #1c1d17;
+    align-self: center;
+    font-size: 24px;
+}
+/*....Choice.....*/
+.Choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.chR{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.chL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Choice h4{
+    font-size: 20px;
+    margin: 0%;
+}
+.Choice h5{
+    font-size: 15px;
+    margin: 0%;
+
+    text-decoration: none;
+}
+.ProductTxT h3{
+    color: #F1F3DE ;
+    font-family: 'Arvo', serif;
+    
+    text-align: center;
+
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+
+    width: 105%;
+    align-self: center;
+    background-color: #fc4245;
+}
+
+
+
+.ProductTxT p{
+    text-align: justify;
+}
+
+/*/////////////////////////|  Footter  |//////////////////////////*/
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 3vw;
+
+    background-color: #F1F3DE ;
+    color: #747762 ;
+    
+    
+    width: 100%;
+    
+    
+
+}
+.QA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+h5{
+    font-size: 15px;
+    margin: 5px;
+}
+.Footer h4{
+    color: #FF5056;
+    font-size: 20px;
+    
+}
+
+.Footer a{
+    text-decoration: none;
+    color: #747762 ;
+}
+
+.Footer h2{
+    color: #747762 ;
+}
+
+
+/*///////////////////////////| Creator |///////////////////////////////*/
+.Creator{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+
+
+    
+}
+
+.Creator b{
+    font-size: 25px;
+}
+.Creator h2{
+    font-size: 15px;
+}
+
+.rigC{
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*////////////////////////| Link |////////////////////////////////*/
+
+
+a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{    
+color: #FF5056;
+}
+
+
+/*/////////////////////////////////////////Submit////////////////////////////////*/
+
+
+.SubmitOut{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    position: fixed;
+    left: -18vw;
+    margin-top: 20vw;
+
+    width: 20vw;
+    height: 10vw;
+
+    border-radius: 0px 25px 25px 0px;
+
+    transition: 0.2s;
+    
+    background-image: linear-gradient(to bottom, #ff5056, #ff6b7e, #ff87a2, #ffa2c1, #ffbcd9);
+
+}
+
+.SubmitOut:hover{
+    left: 0vw;
+}
+
+.submitin{
+    background-color: #1c1d17;
+    width: 18vw;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.submitin h1{
+    align-self: center;
+ 
+}
+
+.itemhSub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  
+}
+
+strong{
+    color: #eb676c;
+    transition: 0.3s;
+}
+
+strong:hover{
+    color: #F1F3DE;
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////| Max Width 992px |/////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media only screen and (min-width:993px) {
+    .itemhSub{
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 992px){
+    .container{
+        width: 101vw;
+        
+    }
+
+    
+    .header{
+        width: 99.1vw;
+        height: 5vw;
+    }
+
+    .header h1{
+        font-size: 35px ;
+        
+    }
+
+    .main{
+        width: 101vw;
+    }
+
+    .stick{
+        margin-top: 5vw;
+    }
+
+    .SubmitOut{
+        display: none;
+    }
+
+    .Shname{
+        width: 100%;
+        left: 0vw;
+    }
+
+    .ProductItem h2{
+        font-size: 18px;
+    }
+
+    .Choice h4{
+        font-size: 16px;
+    }
+
+    .Choice h5{
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/*//////////////////////////////////| Max Width 768px |/////////////////////////////*/
+
+@media only screen and (max-width: 768px){
+    
+    .container{
+        width: 98.5vw;
+        background-image: url(https://images.wallpaperscraft.ru/image/chb_gory_skaly_161251_3415x3415.jpg);
+    }
+
+    .header{
+        width: 96.5vw;
+        height: 6vw;
+    }
+
+    .itele{
+        width: 30%;
+    }
+
+    .iteri{
+        width: 70%;
+    }
+
+    .img{
+        width: 47.5vw;
+        height: 47.5vw;
+        
+    }
+    
+    .head img{
+        width: 45vw;
+        height: 45vw;
+
+    }
+
+    .header h1{
+        font-size: 28px;
+    }
+
+    .head h1{
+        font-size: 25px;
+        height: 50vw;
+    }
+    .head p{
+        font-size: 17px;
+    }
+
+    .main{
+        margin-top: 13vw;
+        box-shadow: 0px 2px 42px 43px rgba(36, 37, 29, 1);
+        width: 98.5vw;
+        
+    }
+
+    .stick{
+        margin-top: 5vw;
+        width: 40%;
+    }
+
+
+    .column{
+        align-self: center;
+        
+    }
+
+    .aboutus{
+        flex-direction: column;
+    }
+
+    .itemab{
+        width: 70%;
+        align-self: center;
+        margin-top: 4vw;
+        border-radius: 15px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .itemab img{
+        border-radius: 15px;
+    }
+
+    .Name h1{
+        font-size: 30px;
+    }
+
+    .Shname{
+        width: 98.5vw;
+    }
+
+
+    .Showcase{
+        flex-direction: column;
+    }
+
+    .ContainCase{
+        align-self: center;
+        width: 100%;
+    }
+    .ProductItem{
+        width: 40vw;
+    }
+    .GhostProductItem{
+        width: 40vw;
+    }
+
+    .NoNeedGhostProductItem{
+        display: none;
+    }
+
+
+    .Creator h2{
+        font-size: 10px;
+    }
+
+    .Creator b{
+        font-size: 18px;
+    }
+}
+
+
+/*//////////////////////////////////| Max Width 500px |/////////////////////////////*/
+
+
+@media only screen and (max-width: 500px){
+    .container{
+        width: 100.2vw;
+    }
+
+    .header{
+        height: 10vw;
+        width: 98.3vw;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+    .header strong{
+        font-size: 20px;
+    }
+
+    .header b{
+        font-size: 20px;
+    }
+
+    .head{
+        margin-top: 15vw;
+    }
+
+    .img{
+        width: 52.5vw;
+        height: 52.5vw;
+        
+    }
+    
+    .head img{
+        width: 50vw;
+        height: 50vw;
+
+    }
+
+    .main{
+        width: 99.9vw;
+    }
+
+    .Shname{
+        width: 100.3vw;
+    }
+
+    .Name{
+        border-radius: 10px;
+    }
+
+    .Name h1{
+        font-size: 23px;
+    }
+
+    .Footer h4{
+        font-size: 17px;
+    }
+    .Footer h5{
+        font-size: 12px;
+    }
+    .Footer b{
+        font-size: 15px;
+    }
+
+    .QuickLinks{
+        background-color: rgba(22, 22, 17, 0.3);
+        
+    }
+
+    .Contacts{
+        background-color: rgba(22, 22, 17, 0.3);
+    }
+}
+
+
+
+/*//////////////////////////////////| Max Width 420px |/////////////////////////////*/
+@media only screen and (max-width: 420px) {
+    .container{
+        background-image: url(https://images.wallpaperscraft.ru/image/chb_gory_skaly_161251_800x1200.jpg);
+
+        width: 99.6vw;
+    }
+
+    .header{
+        width: 97.9vw;
+    }
+    .main{
+        width: 99.5vw;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .itemab{
+        width: 80vw;
+    }
+
+    .Name h1{
+        font-size: 26px;
+        letter-spacing: 10px;
+    }
+
+    .Shname{
+        width: 99.7vw;
+    }
+
+    .stick{
+        margin-top: 8vw;
+    }
+
+    .ContainCase{
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .ProductColumn{
+        align-self: center;
+    }
+    .ProductItem{
+        width: 80vw;
+    }
+    .GhostProductItem{
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+/*//////////////////////////////////| Max Width 350px |/////////////////////////////*/
+@media only screen and (max-width:350px) {
+    .container{
+        width: 99vw;
+        
+        
+    }
+
+    .header{
+        width: 97vw;
+    }
+
+    .header strong{
+        font-size: 15px;
+    }
+
+    .header b{
+        font-size: 15px;
+    }
+
+    .Shname{
+        width: 100vw;
+        left: -0.5vw;
+    }
+
+}   
+
+
+/*//////////////////////////////////| Max Width 300px |/////////////////////////////*/
+@media only screen and (max-width:300px) {
+    
+
+    .container{
+        width: 100vw;
+        margin-left: -1vw;
+    }
+
+    .header{
+        width: 98vw;
+    }
+
+    .main{
+        width: 99.1vw
+    }
+
+    .Shname{
+        width: 101vw;
+        margin-left: -1vw;
+    }
+}
+
+
+
+/*
+
+ <!--Products-->
+                        <div class="ProductItem">
+                            <div class="ProductImage"><img src="https://images.wallpaperscraft.ru/image/chelovek_maska_pistolet_216021_1280x1024.jpg" alt="DecShop"></div>
+                            <div class="ProductTxT">
+                                <h2>NameNameName</h2>
+                                <div class="Choice">
+                                    <h4>ChoiceName <b>:</b> </h4>
+                                    <div class="chR">
+                                        <h5>Taste</h5>
+                                        <h5>Taste</h5>
+                                    </div>
+                                    <div class="chL">
+                                        <h5>Taste</h5>
+                                        <h5>Taste</h5>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam id leo in vitae. Quam pellentesque nec nam aliquam sem et tortor. Dignissim suspendisse in est ante in nibh. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. Adipiscing diam donec adipiscing tristique risus nec.</p>
+                                <h3>300 ₴</h3>
+                            </div>
+                        </div>
+
+*/
+
+
+/*https://docs.google.com/forms/d/e/1FAIpQLSdAmNtoLQeblO62UUNTqrI7oAedEI0kMHhAXb1PXo7qiKWARA/viewform?usp=sf_link*/
